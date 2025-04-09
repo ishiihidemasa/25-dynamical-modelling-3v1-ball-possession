@@ -1,4 +1,4 @@
-Data and Julia codes for `Baseline dynamical model for three-versus-one ball possession in football' by H Ishii, Y Takai, et al.
+Data and Julia codes for `Uncovering inﬂuence of football players' behaviour on team performance in ball possession through dynamical modelling' by H Ishii, Y Takai, et al.
 
 # Setting up environment
 You can reproduce the Julia environment with the required packages using Docker (`Dockerfile`).
@@ -48,6 +48,7 @@ The packages are installed referring to `Project.toml` and `Manifest.toml` while
 - `.devcontainer` : For building a container with VS Code `Dev Containers' extension
   - `.DockerFile` : Dockerfile
   - `devcontainer.json` : Relevant to `Dev Containers' extension
+- `S5_experiment-high-level.mp4` : Supplementary Video S5
 - `hpc-init-sif.sh` : Shell script to initialize an apptainer container (`.sif`) on HPC
 - `hpc-gen-data.sh` : Shell script to run `generate-dataset.jl` within the apptainer container on HPC
 - `Manifest.toml` : Relevant to Julia's package management
