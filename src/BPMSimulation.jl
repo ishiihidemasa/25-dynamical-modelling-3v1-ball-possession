@@ -42,15 +42,6 @@ end
 
 Passer and Mover cannot move away from the field outside.
 """
-function returnforce_spring(x, v, kr, γ, L)
-    return @. ifelse(
-        abs(x) < L / 2,
-        0,
-        kr * (sign(x) * L / 2 - x) + sign(x) * γ * min(-sign(x) * v, 0)
-    )
-end
-
-""" Spring """
 function returnforce(x, kr, L, L_buff)
     return @. ifelse(
         abs(x) < (L - L_buff) / 2,
