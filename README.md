@@ -1,4 +1,4 @@
-Data and Julia codes for `Uncovering inﬂuence of football players' behaviour on team performance in ball possession through dynamical modelling' by H Ishii, Y Takai, et al.
+Data and Julia codes for "Uncovering influence of football players' behaviour on team performance in ball possession through dynamical modelling" by H Ishii, Y Takai, et al.
 
 # Setting up environment
 You can reproduce the Julia environment with the required packages using Docker (`Dockerfile`).
